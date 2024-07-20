@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda de contatos</title>
+    <link rel="stylesheet" href="./index.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <div class="agenda">
+            <header>
+                <img src="" alt="">
+                <h1>Agenda de contatos</h1>
+            </header>
+            <form id="contactForm">
+                <input type="text" placeholder="Seu nome" id="nome" name="nome">
+                <input type="number" placeholder="Seu numero" id="numero" name="numero">
+                <button type="submit">Enviar</button>
+            </form>
+            <table>
+                <thead>
+                    <tr>
+                        <th>
+                            Nome do contato
+                        </th>
+                    </tr>
+                    <tr style="margin-left: 20px;">
+                        <th >
+                            Numero do contato
+                        </th>
+                    </tr>
+                </thead>
+                <tbody id="contactTableBody">
+                    <tr>
+                        <td>
+                            Ana Maria Braga
+                        </td>
+                        <td>
+                            (41) 998732145
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
